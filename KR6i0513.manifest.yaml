@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6i0513/v1
 canonical_location: https://kanripo.org/bkk/KR6i0513/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 佛說內藏百寶經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6i0513_000.yaml, hash: 'sha256:05110773cc09bcecbe7b22325510f4852171fdc1f4e66ff1148de7843792774d'}
-  - {seq: 1, filename: KR6i0513_001.yaml, hash: 'sha256:1b83754b4ba663d79652d81c7faf1669fdbea6b0b8b55f8727a01296c0a0bcfe'}
+  - {seq: 1, filename: KR6i0513_001.yaml, hash: 'sha256:e67186868fd17857f88519da3c8512716ef902a61221540256ec68f15018b6ba'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6i0513_000.markers.yaml, hash: 'sha256:16d346a292175817a237a701a66be1299320779a2524a0ac341769ee014b067b'}
-  - {seq: 1, role: markers, filename: assets/KR6i0513_001.markers.yaml, hash: 'sha256:ea36ab8566e62c7d55084fec7324b884f85d3e03b7c465ad9840a5fa6697072e'}
+  - {seq: 1, role: markers, filename: assets/KR6i0513_001.markers.yaml, hash: 'sha256:511f22dfdebadb769e88ce9d6f6fe1a81bdae89f6fdc102766be84c88c8c1883'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 佛說內藏百寶經
   type: juan
   level: 1
-hash: sha256:69c19ff625032e8e6c5973d27fb763d472ea89e8b891df859162dbdc77f1e7ff
+hash: sha256:0f78fc5a5ea3abe0d18658cca3c4770bb6e2aa6780a38150d5e471d839a3c4e1
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
